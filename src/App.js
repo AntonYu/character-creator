@@ -1,15 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import CharacterEditor from './components/CharacterEditor';
-import Footer from './components/Footer';
+import CharacterEditor from "./components/CharacterEditor";
+import Footer from "./components/Footer";
+import LightBar from "./components/LightBar";
 
 function App() {
-  return (
-    <>
-      <CharacterEditor />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <LightBar />
+            <CharacterEditor />
+            <Footer />
+        </>
+    );
 }
 
 export default App;
